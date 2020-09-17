@@ -23,4 +23,5 @@ I want to understand how works world wide web.
 2. FRONT-END [ONLINE] (UKRAINE) SPRING 2020 - epam university
 
 ##### English 
-pre-intermediate
+Pre-intermediate  
+I have two lessons per week with a teacher online
