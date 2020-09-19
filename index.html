@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,400&display=swap"
+      rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="./js/script.js"></script>
+</head>
+
+<body>
+   <header>
+
+   </header>
+   <main>
+      <section class="info">
+         <div class="about">
+            <img class=" photo" src="img/Image.png" alt="my_photo">
+            <div class="my__name">
+               <h1>Vitalii Hrytsiuk</h1>
+            </div>
+            <div class="social">
+               <div class="animate__fadeInLeft linkedin">
+                  <a href="#"><img src="./img/icon/linkedin.svg" width="50" alt="linkedin"></a>
+               </div>
+               <div class="animate__fadeInLeft facebook">
+                  <a href="#"><img src="./img/icon/facebook.svg" width="50" alt="facebook"></a>
+               </div>
+               <div class="animate__fadeInLeft github">
+                  <a class="animate__fadeInLeft github" href="#"><img src="./img/icon/github.svg" width="50" alt="github"></a>
+               </div>
+            </div>
+         </div>
+         <div class="contacts">
+            <div>
+               <h4>Location</h4>
+               <div class="contacts-block">
+                  <img class="contacts-icon" src="./img/icon/location.svg" alt="location">
+                  <p>Ukraine, Kyiv</p>
+               </div>
+            </div>
+            <div>
+               <h4>Phone</h4>
+               <div class="contacts-block">
+                  <img class="contacts-icon" src="./img/icon/smartphone.svg" alt="phone">
+                  <p>+380630330010</p>
+               </div>
+            </div>
+            <div>
+               <h4>Email</h4>
+               <div class="contacts-block">
+                  <img class="contacts-icon " id="email" src="./img/icon/email.svg" alt="email">
+                  <p>fahivchik1@gmail.com</p>
+               </div>
+            </div>
+            <div>
+               <h4>Skype</h4>
+               <div class="contacts-block">
+                  <img class="contacts-icon" src="./img/icon/skype.svg" alt="skype">
+                  <p>:fahivchik</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="card-content wrapper">
+         <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+               <!-- FIRST SKILL SECTION -->
+               <div class="skills-title">
+                  <h6 class="text-center">Professional</h6>
+               </div>
+               <!-- FIRST SKILL BAR -->
+               <div class="skillbar" >
+                  <div class="skillbar-title"><span>HTML5</span></div>
+                  <progress id="html" max="100" value="80"> 80% </progress>
+                  <label for="html">80%</label>
+               </div>
+               <!-- SECOND SKILL BAR  -->
+               <div class="skillbar">
+                  <div class="skillbar-title"><span>CSS3</span></div>
+                  <progress id="css" max="100" value="80"> 80% </progress>
+                  <label for="css">80%</label>
+               </div>
+               <!-- THIRD SKILL BAR  -->
+               <div class="skillbar">
+                  <div class="skillbar-title"><span>JavaScript</span></div>
+                  <progress id="js" max="100" value="60"> 60% </progress>
+                  <label for="js">60%</label>
+               </div>
+               <!-- FOURTH SKILL BAR  -->
+               <div class="skillbar">
+                  <div class="skillbar-title"><span>Python</span></div>
+                  <progress id="python" max="100" value="50"> 50% </progress>
+                  <label for="python">50%</label>
+               </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+               <!-- SECOND SKILL SECTION -->
+               <div class="skills-title">
+                  <h6 class="text-center">Personal</h6>
+               </div>
+               <!-- FIRST SKILL BAR -->
+               <div class="skillbar" data-percent="80%">
+                  <div class="skillbar-title"><span>Communication</span></div>
+                  <progress id="comumnicaation" max="100" value="70"> 70% </progress>
+                  <label for="comumnicaation">70%</label>
+               </div>
+               <!-- SECOND SKILL BAR  -->
+               <div class="skillbar" data-percent="60%">
+                  <div class="skillbar-title"><span>Teamwork</span></div>
+                  <progress id="teamwork" max="100" value="75"> 75% </progress>
+                  <label for="teamwork">75%</label>
+               </div>
+               <!-- THIRD SKILL BAR  -->
+               <div class="skillbar" data-percent="70%">
+                  <div class="skillbar-title"><span>Creativity</span></div>
+                  <progress id="creativity" max="100" value="55"> 55% </progress>
+                  <label for="creativity">55%</label>
+               </div>
+               <!-- FOURTH SKILL BAR  -->
+               <div class="skillbar" data-percent="70%">
+                  <div class="skillbar-title"><span>Dedication</span></div>
+                  <progress id="dedication" max="100" value="70"> 70% </progress>
+                  <label for="dedication">70%</label>
+               </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+               <!-- THIRD SKILL SECTION -->
+               <div class="skills-title">
+                  <h6 class="text-center">Software</h6>
+               </div>
+               <!-- FIRST SKILL BAR -->
+               <div class="skillbar" data-percent="80%">
+                  <div class="skillbar-title"><span>Adobe Illustrator</span></div>
+                  <progress id="illustrator" max="100" value="70"> 70% </progress>
+                  <label for="illustrator">70%</label>
+               </div>
+               <!-- SECOND SKILL BAR  -->
+               <div class="skillbar" data-percent="70%">
+                  <div class="skillbar-title"><span>Adobe Photoshop</span></div>
+                  <progress id="photoshop" max="100" value="60"> 70% </progress>
+                  <label for="photoshop">60%</label>
+               </div>
+               <!-- THIRD SKILL BAR  -->
+               <div class="skillbar" data-percent="60%">
+                  <div class="skillbar-title"><span>Git</span></div>
+                  <progress id="git" max="100" value="70"> 70% </progress>
+                  <label for="git">70%</label>
+               </div>
+               <!-- FOURTH SKILL BAR  -->
+               <div class="skillbar" data-percent="80%">
+                  <div class="skillbar-title"><span>Console</span></div>
+                  <progress id="console" max="100" value="70"> 70% </progress>
+                  <label for="console">70%</label>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+   <footer></footer>
+</body>
+
+</html>
