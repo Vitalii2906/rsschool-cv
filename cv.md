@@ -57,10 +57,12 @@ function solution(s) {
 };
 ```  
 ## Education
+- SoftServe Academy 
+- ![photo](softserve.jpg)
 - FRONT-END [ONLINE] (UKRAINE) SPRING 2020
 - htmlacademy.ru
 - w3schools.com
-![photo](JS.jpg) ![photo](python.jpg) 
+- ![photo](JS.jpg) ![photo](python.jpg) 
 
 ## English level
 ### Intermediate(B1+)
