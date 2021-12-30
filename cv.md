@@ -59,5 +59,10 @@ function solution(s) {
 - FRONT-END [ONLINE] (UKRAINE) SPRING 2020
 - htmlacademy.ru
 - w3schools.com
-- ![photo]() 	
-- ![photo]() 
+- ![photo](JS.jpg) 	
+- ![photo](python.jpg) 
+
+## English level
+### Intermediate(B1+)
+- https://learnenglish.britishcouncil.org/online-english-level-test
+- ![photo](english.png) 
