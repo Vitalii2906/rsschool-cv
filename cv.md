@@ -3,6 +3,7 @@
 ## Contacts
 email: fahivchik1@gmail.com   
 discord: GuruWithYou#8303
+telegram: @fahivchik
 
 ## About
 I don't like to talk about myself.
@@ -59,10 +60,9 @@ function solution(s) {
 - FRONT-END [ONLINE] (UKRAINE) SPRING 2020
 - htmlacademy.ru
 - w3schools.com
-- ![photo](JS.jpg) 	
-- ![photo](python.jpg) 
+![photo](JS.jpg) ![photo](python.jpg) 
 
 ## English level
 ### Intermediate(B1+)
 - https://learnenglish.britishcouncil.org/online-english-level-test
-- ![photo](english.PNG) 
+![photo](english.jpg) 
