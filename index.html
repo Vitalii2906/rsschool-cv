@@ -1,12 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitalii Hrytsiuk</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>HRYTSIUK VITALII</h1>
+  <div class="wrapper">
+    <header class="page-header">
+      <div class="page-header__inner">
+        <nav class="page-header-nav">
+          <div class="logo">
+            <a class="logo-link" href="#">
+              <div class="logo__icon"></div>
+              <div class="logo__desc"><span  class="logo__name">Vitalii Hrytsiuk</span><span class="logo__text"> / FRONT-END DEVELOPER</span></div>
+            </a>
+          </div>
+          <ul class="site-navigation">
+            <li class="site-navigation__item"><a class="site-navigation__link" href="#about">About</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="#skills">Skills</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="#code">Code Examples</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="#education">Education</a></li>
+            <li class="site-navigation__item"><a class="site-navigation__link" href="#lang">Languages</a></li>
+          </ul>
+        </nav>
+    </div>
+    </header>
+    <main>
+      <div class="main-wrapper">
+        <section class="about-me">
+            <div class="section--main">
+              <div class="section__col section__col--photo">
+                <div class="about-me__img-container">
+                  <img class="about-me__img" src="images/photo.jpg" width="250"  alt="Personal photo">
+                </div>
+              </div>
+              <div class="section__col section__col--right">
+                <p class="section__greeting">Hello!</p>
+                <p><i>I am a self-taught person with experience on Tilda.</i></p>
+              </div>
+            </div>
+        </section>
+        <section class="skills">
+            <h2 id="skills" class="title">
+              My technical skills and tools
+            </h2>
+            <div class="section">
+                <ul class="list__items">
+                  <li class="list__item">Python</li>
+                  <li class="list__item">Basic JavaScript</li>
+                  <li class="list__item">HTML, CSS, SCSS, BOOTSTRAP</li>
+                  <li class="list__item">Figma, Photoshop</li>
+                  <li class="list__item">PyCharm, VSCode</li>
+                  <li class="list__item">Chrome DevTools</li>
+                </ul>
+            </div>
+        </section>
+        <section class="code">
+            <h2 id="code" class="title">
+              CodeExamples
+            </h2>
+            <article class="code__section section">
+                <div class="column--left">
+                  <h3 class="section__title">
+                    Task with Codewars
+                  </h3>
+                  <p>Complete the solution so that it splits the string into pairs of two characters. If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').  </p>
+                  <h4>Python</h4>
+                  <code>
+                    def solution(s):<br>
+                    --result = []<br>
+                    --lenght_s = len(s)<br>
+                    --if lenght_s % 2:<br>
+                    ----s += '_'<br>
+                    --for i in range(0, lenght_s, 2):<br>
+                    ----result.append(s[i:i+2])<br>
+                    --return result<br>
+                  </code>
+                  <h4>JS</h4>
+                  <code>
+                    function solution(s) {<br>
+                    --let result = new Array();<br>
+                    --let lenght_s = s.length;<br>
+                    --if (lenght_s % 2){<br>
+                    ----s += '_';<br>
+                    --};<br>
+                    --for (let i = 0; i < lenght_s; i+=2){<br>
+                    ----result.push(s.slice(i,i+2));<br>
+                    --};<br>
+                    --return result;<br>
+                    };<br>
+                  </code> 
+                </div>
+                <div class="column--right">
+                  <div class="section__img-container unicorn">
+                  </div>
+                </div>
+            </article>
+        </section>
+        <section class="education">
+          <h2 id="education" class="title">Education</h2>
+          <div class="section">
+                <div class="column--thin">
+                  <p class="section__year">
+                    2020
+                  </p>
+                  <p class="section__degree">
+                    Javascript/Front-end Program
+                  </p>
+                  <p class="section__company">
+                    SoftServe Academy
+                  </p>
+                </div>
+                <div class="column--wide">
+                  <p>Basic HTMS, CSS, JS</p>
+                </div>
+          </div>
+          <div class="section">
+                    <div class="column--thin">
+                      <p class="section__year">
+                        2020
+                      </p>
+                      <p class="section__degree">
+                        FRONT-END [ONLINE] (UKRAINE) SPRING 2020
+                      </p>
+                      <p class="section__company">
+                        Epam University
+                      </p>
+                    </div>
+                    <div class="column--wide">
+                      <p>Studied everything necessary for the frontend developer</p>
+                    </div>
+          </div>
+        </section>
+        <section class="languages">
+            <h2 id="lang" class="title">Languages</h2>
+            <div class="section">
+              <ul class="list__items">
+                <li class="list__item">English (intermediate)</li>
+                <li class="list__item">Ukrainian (native)</li>
+              </ul>
+            </div>
+        </section>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__inner">
+          <div class="page-footer__copyright">
+              <p>© 2021 by Vitalii Hrytsiuk</p>
+          </div>
+          <div class="page-footer__contact-links">
+              <ul class="contact-links">
+                  <li class="contact-links__item contact-links__item--rss"><a href="https://rs.school/js/" class="contact-links__link contact-links__link--rss" target="_blank">
+                      <img src="https://rs.school/images/rs_school_js.svg" class="rsslogo" width="60" alt="Rolling Scopes School logo">
+                  </a></li>
+                  <li class="contact-links__item contact-links__item--rss"><a href="https://github.com/Vitalii2906" class="contact-links__link contact-links__link--rss" target="_blank">
+                    <img src="/images/github.png" class="rsslogo" width="50" alt="GitHub logo">
+                </a></li>
+              </ul>
+          </div>
+      </div>
+  </footer>
+  </div>
 </body>
 </html>
