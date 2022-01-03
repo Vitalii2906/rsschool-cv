@@ -83,6 +83,10 @@ p {
   display: inline;
 }
 
+.site-navigation__item :hover{
+  color: #479179;
+}
+
 .site-navigation__link {
   display: inline-block;
   text-decoration: none;
@@ -321,7 +325,6 @@ section {
   flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
-  padding: 1rem; 
 }
 
 
